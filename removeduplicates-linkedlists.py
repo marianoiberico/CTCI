@@ -1,4 +1,4 @@
-//This function will remove the duplicate nodes in a linked list without using a buffer
+#This function will remove the duplicate nodes in a linked list without using a buffer
 
 def RemoveDup(linkedList):
   if linkedList.head==None:
