@@ -1,8 +1,8 @@
 #Code to check if a pair of strings are one edit away (add,delete or change character) from each other
 
 def oneEditAway(s1,s2):
-	if len(s1)<len(s2):
-		#Make sure s1 always hold the larger string
+  if len(s1)<len(s2):
+	  #Make sure s1 always hold the larger string
     s1,s2 = s2,s1
 	if len(s1)-len(s2)>1:
     #If one of them is more than two characters bigger in length then we can immediatly return false
