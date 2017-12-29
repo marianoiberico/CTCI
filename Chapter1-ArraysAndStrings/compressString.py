@@ -6,7 +6,8 @@ def stringCompression(s):
   #Add first element 
   output=s[0]
 	for i in range(len(s1)-1):
-    if s[i]==s[i+1] repeat++
+    if s[i]==s[i+1]:
+	repeat+=1
     else:
       if(repeat>1):
         output+=str(repeat)
